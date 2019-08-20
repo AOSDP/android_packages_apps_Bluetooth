@@ -143,7 +143,7 @@ public class HidHostServiceTest {
      *
      * @param device test device
      * @param bondState bond state value, could be invalid
-     * @param priority value, could be invalid, coudl be invalid
+     * @param priority value, could be invalid
      * @param expected expected result from okToConnect()
      */
     private void testOkToConnectCase(BluetoothDevice device, int bondState, int priority,
